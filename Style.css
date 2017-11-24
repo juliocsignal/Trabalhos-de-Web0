@@ -1,55 +1,98 @@
-.container{
-  position: relative; /*Posicao configurada como relativa*/
-  margin-left: 50%; /*Margem na metade da tela*/
-  margin-right: 50%;
-  margin-top: 150px; /*Topo da div a 150px do topo da pagina*/
-
+html, body {
+  margin:0;
+  padding:0;
+  width:100%;
+  background-color: rgba(85,148,150,1);
 }
+  
+.container{
+  /*background:red;*/
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  background:;
+  margin-top: 130px; /*Topo da div a 150px do topo da pagina*/
+
+} 
+
+/*#container {
+	margin:0 auto;
+	width:960px;
+}*/
 
 h1 { /*Configuracoes de titulo h1*/
   font-size: 30px; /*Fonte*/
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; /*Tipo de fonte*/
   text-align: center; /*Alinhamento*/
+  color:white;
 
 }
 
-Form {
+form {
 
-  height: 330px;
-  width:  267.7px;
-  border-radius: 18px;
+  /*height: 330px;
+  width:  267.7px;*/
+
 
 
 }
 
-
-
-input, label{
-  margin: 0 auto;
-
-  display: block; /*Display configurado como block*/
-  padding: 10px; /*Padding de todos*/
-  padding-right: 100px; /*Padding da esquerda*/
-  margin: 10px; /*Margem de todos*/
-  margin-left: 0px; /*Margem da esquerda*/
-  border-radius: 10px; /*Raio da borda*/
-
+input::placeholder, input::-webkit-input-placeholder { 
+  color: rgba(95,158,160,1);
 }
+
+input:hover{
+	background-color: rgb(126,216,192);
+}
+
+
+
+input{
+  display: inline-block; /*Display configurado como block*/
+  padding: 15px; /*Padding de todos*/
+  padding-left: 50px;
+  padding-right: 50px; /*Padding da esquerda*/
+  margin-bottom: 20px; /*Margem de todos*/
+  border-radius: 800px; /*Raio da borda*/
+  border:0;
+/*  background-color: rgba(95,158,160,1);
+*/ 
+ }
 
 input[type=checkbox]{
   display: inline-block; /*Configurando a checkbox como 'inline-block'*/
+    color:white; /*Cor da letra*/
+   }
 
+ul {
+	list-style:none;
+	padding:0;
+	margin:0;
+}
 
+ul li {
+	padding:0;
+	margin:0;
+	color:white;
+}
 
+h1 {
+   margin:0;
+   padding:0;
+   margin-bottom: 40px;
+   font-size:35px;
+/*margin-left:3%;*/
 }
 
 input[type=submit]{
-  background-color: blue; /*Cor do botao*/
+	background-color: rgb(65,230,170); /*Cor do botao*/
     color:white; /*Cor da letra*/
+    text-align: center;
+    margin-top:10px;
+    text-shadow:0.6px 0.6px 0.7px #2E8B57	;
+    font-size:19px;
 
 }
 
 
-body{
-  background-color: #eee; /*Cor do fundo*/
-}
+
