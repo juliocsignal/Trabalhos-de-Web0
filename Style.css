@@ -1,32 +1,36 @@
 html, body {
-  margin:0;
-  padding:0;
-  width:100%;
-  background-color: rgba(85,148,150,1);
+	margin:0;
+	padding:0;
+	width:100%;
+	background-color: rgba(85,148,150,1);
 }
   
 .container{
-  /*background:red;*/
-  text-align: center;
-  display: block;
-  margin: 0 auto;
-  background:;
-  margin-top: 5%; /*Topo da div a 150px do topo da pagina*/
+	/*background:red;*/
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	background:;
+	margin-top: 5%; /*Topo da div a 150px do topo da pagina*/
 
 } 
 
-/*#container {
-	margin:0 auto;
-	width:960px;
-}*/
 
 h1 { /*Configuracoes de titulo h1*/
-  font-size: 30px; /*Fonte*/
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; /*Tipo de fonte*/
-  text-align: center; /*Alinhamento*/
-  color:white;
+	font-size: 30px; /*Fonte*/
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; /*Tipo de fonte*/
+	text-align: center; /*Alinhamento*/
+	color:white;
 
 }
+
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}	}
+
 
 form {
 
@@ -38,29 +42,63 @@ form {
 }
 
 input::placeholder, input::-webkit-input-placeholder { 
-  color: rgba(95,158,160,1);
+	color: rgba(95,158,160,1);
 }
 
 input:hover{
 	background-color: rgb(126,216,192);
 }
 
+ul li {
+	position: relative;
+	display: inline-block;
+	}
+	
+li ul {
+	position: absolute;
+	
+	left: 149px;
+	top: 0;
+	display: none;
+	}
+	
+	ul li a {
+	margin-top: 10%;
+	margin-bottom: 10%;
+	display: block;
+	font-size: 15px;
+	text-align: center;
+	text-decoration: none;
+	color: #E2144A;
+	background: #fff;
+	padding: 10px;
+	border: 1px solid #ccc; 
+}
+
+li:hover ul { display: block; }
+
+
+ul li a:hover{
+	text-decoration:underline;
+	font-weight: bold;
+	background: #ccc; }
+
 
 
 input{
-  display: inline-block; /*Display configurado como block*/
-  padding: 15px; /*Padding de todos*/
-  padding-left: 50px;
-  padding-right: 50px; /*Padding da esquerda*/
-  margin-bottom: 20px; /*Margem de todos*/
-  border-radius: 800px; /*Raio da borda*/
-  border:0;
+	display: inline-block; /*Display configurado como block*/
+	padding: 15px; /*Padding de todos*/
+	padding-left: 50px;
+	padding-right: 50px; /*Padding da esquerda*/
+	margin-bottom: 20px; /*Margem de todos*/
+	border-radius: 800px; /*Raio da borda*/
+	border:0;
 /*  background-color: rgba(95,158,160,1);
 */ 
  }
 
 input[type=checkbox]{
-  display: inline-block; /*Configurando a checkbox como 'inline-block'*/
+	display: inline-block; /*Configurando a checkbox como 'inline-block'*/
     color:white; /*Cor da letra*/
    }
 
