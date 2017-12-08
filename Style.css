@@ -1,19 +1,17 @@
-html, body {
+html, body { /*configuracoes basicas do corpo da pagina*/
 	margin:0;
 	padding:0;
 	width:100%;
 	background-color: rgba(85,148,150,1);
 }
-  
-.container{
-	/*background:red;*/
-	text-align: center;
-	display: block;
-	margin: 0 auto;
-	background:;
-	margin-top: 5%; /*Topo da div a 150px do topo da pagina*/
 
-} 
+.container
+{
+	text-align: center; /*Alinha o texto da div de classe 'container'*/
+	display: block; /*Configura a div como um bloco*/
+	margin: 0 auto; /*Margens automaticas de orientacao esquerda-direita (centralizacao) */
+	margin-top: 5%; /*Topo da div a 150px do topo da pagina*/
+}
 
 
 h1 { /*Configuracoes de titulo h1*/
@@ -25,65 +23,87 @@ h1 { /*Configuracoes de titulo h1*/
 }
 
 
-ul {
-	margin: 0;
+ul { /*Configuracoes padrao para todas as listas a serem utilizadas*/
+	/*margin: 0; Zera as margens da lista*/
 	padding: 0;
-	list-style: none;
-}	}
-
-
-form {
-
-  /*height: 330px;
-  width:  267.7px;*/
-
-
-
+	list-style: none; /*Zera qualquer predefinicao de estilo da lista*/
 }
 
-input::placeholder, input::-webkit-input-placeholder { 
+div#logo{ /*Divisao que corresponde a logo posicionada no topo da pagina*/
+	margin: 0 auto; /*Margens automaticas de orientacao esquerda-direita*/
+	margin-top: 1%; /*Margem do topo da divisao*/
+	display: block; /**/
+	position: relative;
+}
+
+ul#nav
+{
+	display: table;
+	margin: 0 auto;
+	margin-top: 1%;
+}
+
+img#foto{
+	position:absolute;
+	margin-top: 10px;
+	position: relative;
+	display: block;
+	margin: 0 auto;
+}
+
+input::placeholder, input::-webkit-input-placeholder { /*Cores do placeholder mudam
+																											quando cursor está em cima deles*/
 	color: rgba(95,158,160,1);
 }
 
-input:hover{
-	background-color: rgb(126,216,192);
+ul#form li { /*Configuracoes da lista 'form' que corresponde ao formulario de cadastro*/
+	/*position: relative;
+	display: inline-block;*/
+	}
+
+ul#nav li
+{
+	position: relative; /*Torna a posicao dos itens da lista 'nav', que
+											corresponde ao menu, relativos*/
+	display: inline-block; /*Define a visualizacao do menu como blocos horizontais*/
 }
 
-ul li {
-	position: relative;
-	display: inline-block;
-	}
-	
-li ul {
-	position: absolute;
-	
+/*li ul#drop {
+	/*position: absolute;
+
 	left: 149px;
 	top: 0;
 	display: none;
-	}
-	
-	ul li a {
+	}*/
+
+
+
+ul li a
+{
 	margin-top: 10%;
 	margin-bottom: 10%;
 	display: block;
 	font-size: 15px;
 	text-align: center;
 	text-decoration: none;
-	color: #E2144A;
+	color: #2c8d99;
 	background: #fff;
-	padding: 10px;
-	border: 1px solid #ccc; 
+	padding: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+	border: 1px solid #ccc;
 }
 
-li:hover ul { display: block; }
+/*li:hover ul#drop
+{
+	display: block;
+}*/
 
 
 ul li a:hover{
-	text-decoration:underline;
-	font-weight: bold;
-	background: #ccc; }
+	background: rgba(255,255,255,0.8); }
 
-
+/**/
 
 input{
 	display: inline-block; /*Display configurado como block*/
@@ -94,7 +114,7 @@ input{
 	border-radius: 800px; /*Raio da borda*/
 	border:0;
 /*  background-color: rgba(95,158,160,1);
-*/ 
+*/
  }
 
 input[type=checkbox]{
@@ -131,6 +151,3 @@ input[type=submit]{
     font-size:19px;
 
 }
-
-
-
