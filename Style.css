@@ -5,15 +5,6 @@ html, body { /*configuracoes basicas do corpo da pagina*/
 	background-color: rgba(85,148,150,1);
 }
 
-.container
-{
-	text-align: center; /*Alinha o texto da div de classe 'container'*/
-	display: block; /*Configura a div como um bloco*/
-	margin: 0 auto; /*Margens automaticas de orientacao esquerda-direita (centralizacao) */
-	margin-top: 5%; /*Topo da div a 150px do topo da pagina*/
-}
-
-
 h1 { /*Configuracoes de titulo h1*/
 	font-size: 30px; /*Fonte*/
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; /*Tipo de fonte*/
@@ -23,6 +14,8 @@ h1 { /*Configuracoes de titulo h1*/
 }
 
 
+
+
 ul { /*Configuracoes padrao para todas as listas a serem utilizadas*/
 	/*margin: 0; Zera as margens da lista*/
 	padding: 0;
@@ -30,17 +23,42 @@ ul { /*Configuracoes padrao para todas as listas a serem utilizadas*/
 }
 
 div#logo{ /*Divisao que corresponde a logo posicionada no topo da pagina*/
-	margin: 0 auto; /*Margens automaticas de orientacao esquerda-direita*/
-	margin-top: 1%; /*Margem do topo da divisao*/
+	/*margin: 0 auto; Margens automaticas de orientacao esquerda-direita*/
+	margin-top: 2%; /*Margem do topo da divisao*/
 	display: block; /**/
 	position: relative;
+
+
+}
+
+/*hr
+{
+	margin-bottom:1%;
+	width: 30%;
+	display: block;
+	margin:0 auto;
+	position: relative;
+}*/
+
+div#menu
+{
+	margin: 0 auto;
+	margin-top: 0.6%;
+	/*	margin-bottom: 0.5%;
+*/
+	position: relative;
+	display: block;
+
+
 }
 
 ul#nav
 {
+	position: relative;
 	display: table;
 	margin: 0 auto;
-	margin-top: 1%;
+	margin-bottom: 1%;
+	border-bottom-width: 2%;
 }
 
 img#foto{
@@ -49,12 +67,11 @@ img#foto{
 	position: relative;
 	display: block;
 	margin: 0 auto;
+
+
 }
 
-input::placeholder, input::-webkit-input-placeholder { /*Cores do placeholder mudam
-																											quando cursor está em cima deles*/
-	color: rgba(95,158,160,1);
-}
+
 
 ul#form li { /*Configuracoes da lista 'form' que corresponde ao formulario de cadastro*/
 	/*position: relative;
@@ -66,32 +83,24 @@ ul#nav li
 	position: relative; /*Torna a posicao dos itens da lista 'nav', que
 											corresponde ao menu, relativos*/
 	display: inline-block; /*Define a visualizacao do menu como blocos horizontais*/
-}
-
-/*li ul#drop {
-	/*position: absolute;
-
-	left: 149px;
-	top: 0;
-	display: none;
-	}*/
-
-
+	padding: 2%;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-size: 15px;
+	text-align: center;
+	background: #fff;
+	border-left: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	}
 
 ul li a
 {
-	margin-top: 10%;
-	margin-bottom: 10%;
-	display: block;
-	font-size: 15px;
-	text-align: center;
 	text-decoration: none;
 	color: #2c8d99;
-	background: #fff;
-	padding: 20px;
-	padding-left: 30px;
-	padding-right: 30px;
-	border: 1px solid #ccc;
+	/*margin-top: 10%;
+	margin-bottom: 10%;
+	display: block;*/
+
 }
 
 /*li:hover ul#drop
@@ -117,10 +126,7 @@ input{
 */
  }
 
-input[type=checkbox]{
-	display: inline-block; /*Configurando a checkbox como 'inline-block'*/
-    color:white; /*Cor da letra*/
-   }
+
 
 ul {
 	list-style:none; /*Zerando estilos pre-definidos*/
@@ -142,35 +148,63 @@ h1 {
 /*margin-left:3%;*/
 }
 
-input[type=submit]{ /*Entrada do tipo Botao*/
-	background-color: rgb(65,230,170); /*Cor do botao*/
-    color:white; /*Cor da letra*/
-    text-align: center; /*Alinhando texto do botao*/
-    margin-top:10px; /*Configurando margem de topo*/
-    text-shadow:0.6px 0.6px 0.7px #2E8B57	; /*Configurando sombra do botao*/
-    font-size:19px; /*Tamanho da fonte*/
+
+
+div#corpotexto
+{
+	display: block
+	position: relative;
 
 }
 
 article#corpo
 {
 	background-color: #fff; /*Cor de fundo do artigo*/
-	width: 60%; /*Largura do artigo configurada como 60% do tamanho da pagina*/
+	width: 90%; /*Largura do artigo configurada como 60% do tamanho da pagina*/
 	display: block;
 	margin: 0 auto; /*Margens automaticas de orientacao esquerda-direita*/
-  border-radius: 18px; /*Raio da borda do artigo*/
+	border-radius: 18px; /*Raio da borda do artigo*/
 	padding: 1.5%; /*Espacamento interno do artigo*/
 }
 
 article#corpo h1
 {
-	padding: 0.3%;
+	padding: 0.7%;
 	text-align: left;
 	background-color: rgba(44,141,153,0.6);
 	color: #000;
+	border-radius: 5px;
+
 }
 
 article#corpo p
 {
 	text-align: justify;
+	text-indent: 1.7em;
+}
+
+footer
+{
+	background-color: #fff;
+	width: 25%;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 5px;
+	border-radius: 5px;
+	position: relative;
+	padding: 1%;
+	margin-top: 0.6%;
+	margin-bottom: 5%;
+}
+
+
+
+footer p
+{
+
+	margin-top: -15px;
+	margin-bottom: -15px;
+	text-align: center;
+	padding: 1.1%;
+
 }

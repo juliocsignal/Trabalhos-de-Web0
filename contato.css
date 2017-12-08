@@ -1,0 +1,26 @@
+.container
+{
+		text-align: center; /*Alinha o texto da div de classe 'container'*/
+		display: block; /*Configura a div como um bloco*/
+		margin: 0 auto; /*Margens automaticas de orientacao esquerda-direita (centralizacao) */
+		margin-top: 5%; /*Topo da div a 150px do topo da pagina*/
+}
+
+input::placeholder, input::-webkit-input-placeholder { /*Cores do placeholder mudam quando cursor está em cima deles*/
+		color: rgba(95,158,160,1);
+}
+
+input[type=checkbox]{
+		display: inline-block; /*Configurando a checkbox como 'inline-block'*/
+    color:white; /*Cor da letra*/
+}
+
+input[type=submit]{ /*Entrada do tipo Botao*/
+		background-color: rgb(65,230,170); /*Cor do botao*/
+    color:white; /*Cor da letra*/
+    text-align: center; /*Alinhando texto do botao*/
+    margin-top:10px; /*Configurando margem de topo*/
+    text-shadow:0.6px 0.6px 0.7px #2E8B57	; /*Configurando sombra do botao*/
+    font-size:19px; /*Tamanho da fonte*/
+
+}
