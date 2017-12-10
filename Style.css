@@ -18,51 +18,39 @@ ul { /*Configuracoes padrao para todas as listas a serem utilizadas*/
 	list-style: none; /*Zera qualquer predefinicao de estilo da lista*/
 }
 
-div#logo{ /*Divisao que corresponde a logo posicionada no topo da pagina*/
-	/*margin: 0 auto; Margens automaticas de orientacao esquerda-direita*/
+div#logo
+{ /*Divisao que corresponde a logo posicionada no topo da pagina*/
+
 	margin-top: 2%; /*Margem do topo da divisao*/
-	display: block; /**/
-	position: relative;
+	display: block; /*Configurando o display como bloco*/
+	position: relative; /*Configurando a posicao como relativa*/
 
 
 }
 
-/*hr
-{
-	margin-bottom:1%;
-	width: 30%;
-	display: block;
-	margin:0 auto;
-	position: relative;
-}*/
 
 div#menu
 {
-	margin: 0 auto;
-	margin-top: 0.6%;
-	/*	margin-bottom: 0.5%;
-*/
-	position: relative;
-	display: block;
-
-
+	margin: 0 auto; /*Margens automaticas de orientacao esquerda-direita*/
+	margin-top: 0.6%; /*Configurando margem do topo*/
+	position: relative; /*Configurando a posicao como relativa*/
+	display: block; /*Configurando o display como bloco*/
 }
 
 ul#nav
 {
-	position: relative;
-	display: table;
-	margin: 0 auto;
-	margin-bottom: 1%;
-	border-bottom-width: 2%;
+	position: relative; /*Configurando a posicao como relativa*/
+	display: table; /*Configurando o display do menu como tabela para facilitar a orientacao*/
+	margin: 0 auto; /*Margens automaticas de orientacao esquerda-direita*/
+	margin-bottom: 1%; /*Margem do fundo*/
 }
 
 img#foto{
-	position:absolute;
-	margin-top: 10px;
-	position: relative;
-	display: block;
-	margin: 0 auto;
+	position:absolute; /*Tornando a posicao da imagem como absoluta*/
+	margin-top: 10px; /*Configurando a margem do topo*/
+	position: relative; /*Configurando a posicao como relativa*/
+	display: block; /*Configurando o display como bloco*/
+	margin: 0 auto; /*Margens automaticas de orientacao esquerda-direita*/
 
 
 }
@@ -85,11 +73,8 @@ ul#nav li
 
 ul li a
 {
-	text-decoration: none;
-	color: #2c8d99;
-	/*margin-top: 10%;
-	margin-bottom: 10%;
-	display: block;*/
+	text-decoration: none; /*Zera configuracoes predefinidas*/
+	color: #2c8d99; /*Cor do texto*/
 
 }
 
@@ -98,13 +83,6 @@ ul#nav li:hover
 	background-color: #cdd;
 
 }
-
-/**/
-
-
-
-
-
 
 
 h1 {

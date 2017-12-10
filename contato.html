@@ -9,28 +9,28 @@
 
   </head>
 
-  <script>
-    function funcao()
+  <script> //Inicio de codigo em Javascript
+    function funcao() //Criacao de uma nova funcao
     {
-      alert("Mensagem enviada com sucesso! :D")
+      alert("Mensagem enviada com sucesso! :D") //Exibe uma mensagem de alerta no navegador
     }
   </script>
   <body>
 
-    <div id="logo">
-				<a href="index.html"><img id="foto" src="media/foto.jpg" width="300px" height="143px" /></a>
+    <div id="logo"> <!--Divisao da logo-->
+				<a href="index.html"><img id="foto" src="media/foto.jpg" width="300px" height="143px" /></a> <!--Foto com link para a home-->
 				</div>
 
-				<div id="menu">
-				  <ul id="nav">
-            <li><a href="index.html">Home</a></li>
-  					<li><a href="#">Quem Somos?</a></li>
-  					<li><a href="#">Menu#1</a></li>
-  					<li><a href="#">Menu#2</a></li>
-  					<li><a href="#">Menu#3</a></li>
-  					<li><a href="#">Menu#4</a></li>
-  					<li><a href="#">Menu#4</a></li>
-  					<li><a href="contato.html">Contato</a></li>
+				<div id="menu"> <!--Divisao do menu-->
+				  <ul id="nav"> <!--Lista do menu-->
+					<li><a href="index.html">Home</a></li><!--Itens com links de diferentes paginas-->
+					<li><a href="#">Quem Somos?</a></li>
+					<li><a href="#">Menu#1</a></li>
+					<li><a href="#">Menu#2</a></li>
+					<li><a href="#">Menu#3</a></li>
+					<li><a href="#">Menu#4</a></li>
+					<li><a href="#">Menu#4</a></li>
+					<li><a href="contato.html">Contato</a></li>
 				  </ul>
 			</div>
 
@@ -39,8 +39,8 @@
       <form class="formulario" action="#" method="post"> <!--Criacao do formulario-->
           <ul class="form">
             <li>
-              <input type="name" name="text" placeholder="Nome..."> <!--Campo de email-->
-              <input type="name" name="text" placeholder="Sobrenome..."> <!--Campo de email-->
+              <input type="name" name="text" placeholder="Nome..."> <!--Campo de Nome-->
+              <input type="name" name="text" placeholder="Sobrenome..."> <!--Campo de Sobrenome-->
             </li>
 
             <li>
@@ -49,18 +49,18 @@
             </li>
 
             <li>
-              <input type="name" name="text" placeholder="Endereço..."> <!--Campo de email-->
-              <input type="number" name="text" placeholder="CEP..."> <!--Campo de email-->
+              <input type="name" name="text" placeholder="Endereço..."> <!--Campo de Endereco-->
+              <input type="number" name="text" placeholder="CEP..."> <!--Campo de CEP-->
             </li>
 
             <li>
-              <input type="name" name="text" placeholder="Bairro..."> <!--Campo de senha-->
-              <input type="name" name="text" placeholder="Cidade..."> <!--Campo de senha-->
+              <input type="name" name="text" placeholder="Bairro..."> <!--Campo de Bairro-->
+              <input type="name" name="text" placeholder="Cidade..."> <!--Campo de Cidade-->
             </li>
 
             <li>
-              <select>
-                <option value=AC>AC</option>
+              <select> <!--Drop Down List com opcoes de estado-->
+                <option value=AC>AC</option> <!--Opcoes de escolha-->
                 <option value=AL>AL</option>
                 <option value=AP>AP</option>
                 <option value=AM>AM</option>
@@ -87,14 +87,14 @@
                 <option value=SP>SP</option>
                 <option value=SE>SE</option>
                 <option value=TO>TO</option>
-              </select> <!--Campo de senha-->
+              </select>
             </li>
 
             <li>
-              <textarea placeholder="Deixe sua mensagem..."></textarea>
+              <textarea placeholder="Deixe sua mensagem..."></textarea> <!--Espaco onde o usuario digita sua mensagem-->
             </li>
 
-            <li><input type="checkbox" class="a" name="remember" value=""> <a id="not">Receber notificações!</a> <!--Opcao para continuar conectado sempre--></li>
+            <li><input type="checkbox" class="a" name="remember" value=""> <a id="not">Receber atualizações por email!</a> <!--Opcao para receber notificações via email--></li>
           <br>
           <li><input type="submit" name="submit" value="Enviar" id="botao" onclick="funcao()"> <!--Botao de entrar--></li>
 
@@ -103,10 +103,8 @@
       </form>
     </div>
 
-    <footer>
-		<p>Facebook | Twitter</p>
-
-		<p>Todos os direitos reservados  &#0169; 2017.</p>
+    <footer> <!--Rodape do site-->
+		    <p id="redes">Facebook | Twitter <br> Todos os direitos reservados  &#0169; 2017.</p> <!--Texto do rodape-->
     </footer>
 
   </body>
