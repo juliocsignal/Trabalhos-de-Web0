@@ -20,6 +20,9 @@ input{
 	margin-bottom: 20px; /*Margem de todos*/
 	border-radius: 800px; /*Raio da borda*/
 	border:0;
+	width: 25em;
+	margin: 1%;
+
 
 /*  background-color: rgba(95,158,160,1);
 */
@@ -31,7 +34,15 @@ input::placeholder, input::-webkit-input-placeholder { /*Cores do placeholder mu
 
 input[type=checkbox]{
 		display: inline-block; /*Configurando a checkbox como 'inline-block'*/
-    color:white; /*Cor da letra*/
+		margin: 0;
+		margin-top: 1%;
+		width: 2em;
+		color: white;
+}
+
+a#not
+{
+		color:white;
 }
 
 input[type=submit]{ /*Entrada do tipo Botao*/
@@ -41,14 +52,38 @@ input[type=submit]{ /*Entrada do tipo Botao*/
     margin-top:10px; /*Configurando margem de topo*/
     text-shadow:0.6px 0.6px 0.7px #2E8B57	; /*Configurando sombra do botao*/
     font-size:19px; /*Tamanho da fonte*/
+		width: 8em;
+		margin-bottom: 0;
 
+}
+
+select
+{
+	display: iblock; /*Display configurado como block*/
+	padding: 15px; /*Padding de todos*/
+	padding-left: 50px;
+	padding-right: 50px; /*Padding da esquerda*/
+	border-radius: 800px; /*Raio da borda*/
+}
+
+textarea
+{
+		margin: 13px;
+		/*padding-top:2.5%;
+		padding-bottom:2.5%;
+		padding-left: 10%;
+		padding-right: 10%;*/
+		padding:2%;
+		height: 10em;
+		text-align: justify;
+		width: 35%;
+		border-radius: 2%; /*Raio da borda*/
 }
 
 .form {
 		list-style:none; /*Zerando estilos pre-definidos*/
 		padding:0; /*Zerando espacamento interno da lista*/
 		margin:0;
-		color:white;
 }
 
 .form li

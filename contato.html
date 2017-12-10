@@ -5,9 +5,16 @@
     <link rel="stylesheet" href="contato.css">
     <link rel="stylesheet" href="style.css">
 
-    <title>Title</title>
+    <title>Disco Mania</title>
 
   </head>
+
+  <script>
+    function funcao()
+    {
+      alert("Mensagem enviada com sucesso! :D")
+    }
+  </script>
   <body>
 
     <div id="logo">
@@ -29,11 +36,11 @@
 
 	<div id="container" class="container"> <!--Criacao da Divisao 'container'-->
 
-      <form class="formulario" action="index.html" method="post"> <!--Criacao do formulario-->
+      <form class="formulario" action="#" method="post"> <!--Criacao do formulario-->
           <ul class="form">
             <li>
-              <input type="name" name="text" placeholder="Nome..." class="same" > <!--Campo de email-->
-              <input type="name" name="text" placeholder="Sobrenome..." class="same" > <!--Campo de email-->
+              <input type="name" name="text" placeholder="Nome..."> <!--Campo de email-->
+              <input type="name" name="text" placeholder="Sobrenome..."> <!--Campo de email-->
             </li>
 
             <li>
@@ -42,17 +49,55 @@
             </li>
 
             <li>
-              <input type="name" name="text" placeholder="Endereço..." class="same"> <!--Campo de email-->
-
+              <input type="name" name="text" placeholder="Endereço..."> <!--Campo de email-->
+              <input type="number" name="text" placeholder="CEP..."> <!--Campo de email-->
             </li>
 
             <li>
-              <input type="password" name="text" placeholder="Senha..."> <!--Campo de senha-->
-              <input type="password" name="text" placeholder="Confirme sua senha..."> <!--Campo de senha-->
+              <input type="name" name="text" placeholder="Bairro..."> <!--Campo de senha-->
+              <input type="name" name="text" placeholder="Cidade..."> <!--Campo de senha-->
             </li>
-            <li><input type="checkbox" class="a" name="remember" value=""> Receber notificações! <!--Opcao para continuar conectado sempre--></li>
+
+            <li>
+              <select>
+                <option value=AC>AC</option>
+                <option value=AL>AL</option>
+                <option value=AP>AP</option>
+                <option value=AM>AM</option>
+                <option value=BA>BA</option>
+                <option value=CE>CE</option>
+                <option value=DF>DF</option>
+                <option value=ES>ES</option>
+                <option value=GO>GO</option>
+                <option value=MA>MA</option>
+                <option value=MT>MT</option>
+                <option value=MS>MS</option>
+                <option value=MG>MG</option>
+                <option value=PA>PA</option>
+                <option value=PB>PB</option>
+                <option value=PR>PR</option>
+                <option value=PE>PE</option>
+                <option value=PI>PI</option>
+                <option value=RJ>RJ</option>
+                <option value=RN>RN</option>
+                <option value=RS>RS</option>
+                <option value=RO>RO</option>
+                <option value=RR>RR</option>
+                <option value=SC>SC</option>
+                <option value=SP>SP</option>
+                <option value=SE>SE</option>
+                <option value=TO>TO</option>
+              </select> <!--Campo de senha-->
+            </li>
+
+            <li>
+              <textarea placeholder="Deixe sua mensagem..."></textarea>
+            </li>
+
+            <li><input type="checkbox" class="a" name="remember" value=""> <a id="not">Receber notificações!</a> <!--Opcao para continuar conectado sempre--></li>
           <br>
-          <li><input type="submit" name="submit" value="Enviar" id="botao"> <!--Botao de entrar--></li>
+          <li><input type="submit" name="submit" value="Enviar" id="botao" onclick="funcao()"> <!--Botao de entrar--></li>
+
           </ul>
         <br>
       </form>

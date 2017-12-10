@@ -9,7 +9,6 @@ h1 { /*Configuracoes de titulo h1*/
 	font-size: 30px; /*Fonte*/
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; /*Tipo de fonte*/
 	text-align: center; /*Alinhamento*/
-	color:white;
 
 }
 
@@ -94,8 +93,11 @@ ul li a
 
 }
 
-ul li a:hover{
-	background: rgba(255,255,255,0.8); }
+ul#nav li:hover
+{
+	background-color: #cdd;
+
+}
 
 /**/
 
@@ -152,13 +154,13 @@ footer
 {
 	background-color: #fff;
 	height: 10%;
-	width: 20em;
+	width: 30em;
 	display: block;
 	margin: 0 auto;
-	margin-bottom: 5px;
-	border-radius: 5px;
+	margin-bottom: 1%;
+	border-radius: 20px;
 	position: relative;
-	padding: 0.5%;
+	padding: 1.5%;
 	margin-top: 0.6%;
 	margin-bottom: 5%;
 }
