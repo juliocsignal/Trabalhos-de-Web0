@@ -29,17 +29,32 @@
 
 	<div id="container" class="container"> <!--Criacao da Divisao 'container'-->
 
-      <form class="form" action="index.html" method="post"> <!--Criacao do formulario-->
-          <ul id="form">
-			<li><input type="email" name="text" placeholder="Email..."> <!--Campo de email--></li>
-			<li><input type="email" name="text" placeholder="Confirme seu email..."> <!--Campo de email--></li>
-			<li><input type="password" name="text" placeholder="Senha..."> <!--Campo de senha--></li>
-			<li><input type="password" name="text" placeholder="Confirme sua senha..."> <!--Campo de senha--></li>
-			<li><input type="checkbox" class="a" name="remember" value=""> Lembrar senha <!--Opcao para continuar conectado sempre--></li>
-			<li><input type="checkbox" class="a" name="remember" value=""> Contribuir para atualizações futuras <!--Opcao para continuar conectado sempre--></li>
-			<li><input type="submit" name="submit" value="Entrar" id="botao"> <!--Botao de entrar--></li>
+      <form class="formulario" action="index.html" method="post"> <!--Criacao do formulario-->
+          <ul class="form">
+            <li>
+              <input type="name" name="text" placeholder="Nome..." class="same" > <!--Campo de email-->
+              <input type="name" name="text" placeholder="Sobrenome..." class="same" > <!--Campo de email-->
+            </li>
+
+            <li>
+              <input type="email" name="text" placeholder="Email..."> <!--Campo de email-->
+              <input type="email" name="text" placeholder="Confirme seu email..."> <!--Campo de email-->
+            </li>
+
+            <li>
+              <input type="name" name="text" placeholder="Endereço..." class="same"> <!--Campo de email-->
+
+            </li>
+
+            <li>
+              <input type="password" name="text" placeholder="Senha..."> <!--Campo de senha-->
+              <input type="password" name="text" placeholder="Confirme sua senha..."> <!--Campo de senha-->
+            </li>
+            <li><input type="checkbox" class="a" name="remember" value=""> Receber notificações! <!--Opcao para continuar conectado sempre--></li>
           <br>
+          <li><input type="submit" name="submit" value="Enviar" id="botao"> <!--Botao de entrar--></li>
           </ul>
+        <br>
       </form>
     </div>
 

@@ -3,8 +3,27 @@
 		text-align: center; /*Alinha o texto da div de classe 'container'*/
 		display: block; /*Configura a div como um bloco*/
 		margin: 0 auto; /*Margens automaticas de orientacao esquerda-direita (centralizacao) */
-		margin-top: 5%; /*Topo da div a 150px do topo da pagina*/
+		margin-top: 2%; /*Topo da div a 150px do topo da pagina*/
 }
+
+
+ul li { /*Configuracoes da lista 'form' que corresponde ao formulario de cadastro*/
+	position: relative;
+	display: inline-block;
+}
+
+input{
+	display: inline-block; /*Display configurado como block*/
+	padding: 15px; /*Padding de todos*/
+	padding-left: 50px;
+	padding-right: 50px; /*Padding da esquerda*/
+	margin-bottom: 20px; /*Margem de todos*/
+	border-radius: 800px; /*Raio da borda*/
+	border:0;
+
+/*  background-color: rgba(95,158,160,1);
+*/
+ }
 
 input::placeholder, input::-webkit-input-placeholder { /*Cores do placeholder mudam quando cursor está em cima deles*/
 		color: rgba(95,158,160,1);
@@ -23,4 +42,24 @@ input[type=submit]{ /*Entrada do tipo Botao*/
     text-shadow:0.6px 0.6px 0.7px #2E8B57	; /*Configurando sombra do botao*/
     font-size:19px; /*Tamanho da fonte*/
 
+}
+
+.form {
+		list-style:none; /*Zerando estilos pre-definidos*/
+		padding:0; /*Zerando espacamento interno da lista*/
+		margin:0;
+		color:white;
+}
+
+.form li
+{
+		/*margin-left: 0.5%;
+		margin-right: 0.5%;*/
+		display: block;
+
+}
+
+.um
+{
+		margin: 0;
 }

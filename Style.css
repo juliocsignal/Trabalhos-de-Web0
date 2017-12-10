@@ -13,9 +13,6 @@ h1 { /*Configuracoes de titulo h1*/
 
 }
 
-
-
-
 ul { /*Configuracoes padrao para todas as listas a serem utilizadas*/
 	/*margin: 0; Zera as margens da lista*/
 	padding: 0;
@@ -72,12 +69,6 @@ img#foto{
 }
 
 
-
-ul#form li { /*Configuracoes da lista 'form' que corresponde ao formulario de cadastro*/
-	/*position: relative;
-	display: inline-block;*/
-	}
-
 ul#nav li
 {
 	position: relative; /*Torna a posicao dos itens da lista 'nav', que
@@ -103,42 +94,16 @@ ul li a
 
 }
 
-/*li:hover ul#drop
-{
-	display: block;
-}*/
-
-
 ul li a:hover{
 	background: rgba(255,255,255,0.8); }
 
 /**/
 
-input{
-	display: inline-block; /*Display configurado como block*/
-	padding: 15px; /*Padding de todos*/
-	padding-left: 50px;
-	padding-right: 50px; /*Padding da esquerda*/
-	margin-bottom: 20px; /*Margem de todos*/
-	border-radius: 800px; /*Raio da borda*/
-	border:0;
-/*  background-color: rgba(95,158,160,1);
-*/
- }
 
 
 
-ul {
-	list-style:none; /*Zerando estilos pre-definidos*/
-	padding:0; /*Zerando espacamento interno da lista*/
-	margin:0;
-}
 
-ul li {
-	padding:0;
-	margin:0;
-	color:white;
-}
+
 
 h1 {
    margin:0; /*Zerando margem e padding pre-definidos*/
@@ -186,13 +151,14 @@ article#corpo p
 footer
 {
 	background-color: #fff;
-	width: 25%;
+	height: 10%;
+	width: 20em;
 	display: block;
 	margin: 0 auto;
 	margin-bottom: 5px;
 	border-radius: 5px;
 	position: relative;
-	padding: 1%;
+	padding: 0.5%;
 	margin-top: 0.6%;
 	margin-bottom: 5%;
 }
@@ -201,10 +167,11 @@ footer
 
 footer p
 {
-
-	margin-top: -15px;
-	margin-bottom: -15px;
+	margin: 0;
+	font-size: 1.0em;
+	/*margin-top: -15px;
+	margin-bottom: -15px;*/
 	text-align: center;
-	padding: 1.1%;
+
 
 }
