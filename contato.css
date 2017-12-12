@@ -3,7 +3,7 @@
 		text-align: center; /*Alinha o texto da div de classe 'container'*/
 		display: block; /*Configura a div como um bloco*/
 		margin: 0 auto; /*Margens automaticas de orientacao horizontal (centralizacao) */
-		margin-top: 2%; /*Topo da div a 150px do topo da pagina*/
+
 }
 
 
@@ -22,6 +22,7 @@ input{ /*Inputs do formulario*/
 	border:0; /*Zera configuracoes predefinidas*/
 	width: 25em; /*Determina a largura de cada input*/
 	margin: 1%; /*Define todas as margens em 1%*/
+	box-shadow: 0.6px 0.6px 0.7px #2e6c9f;
 
 }
 
@@ -35,11 +36,13 @@ input[type=checkbox]{ /*Configura o input de caixa de marcacao*/
 		margin: 0; /*Zera configuracoes predefinidas*/
 		margin-top: 1%; /*Define a margem do topo em 1%*/
 		width: 2em; /*Define a largura em 2em (medida responsiva)*/
+
 }
 
 a#not
 {
-		color:white; /*Define a cor do texto como branca*/
+		/*Define a cor do texto como branca*/
+		color: rgba(95,158,160,1);
 }
 
 input[type=submit]{ /*Entrada do tipo Botao*/
@@ -60,7 +63,11 @@ select
 	padding-left: 50px; /*Padding da esquerda*/
 	padding-right: 50px; /*Padding da direita*/
 	border-radius: 800px; /*Raio da borda*/
+	box-shadow: 0.6px 0.6px 0.7px #2e6c9f;
+
 }
+
+
 
 textarea /*Caixa de texto onde o usuário escreve sua mensagem*/
 {
@@ -69,6 +76,7 @@ textarea /*Caixa de texto onde o usuário escreve sua mensagem*/
 		height: 10em; /*Configurando a altura da caixa de texto*/
 		width: 35%; /*Configurando a largura da caixa de texto*/
 		border-radius: 2%; /*Raio da borda*/
+		background-color: white;
 }
 
 .form {
@@ -82,5 +90,18 @@ textarea /*Caixa de texto onde o usuário escreve sua mensagem*/
 		/*margin-left: 0.5%;
 		margin-right: 0.5%;*/
 		display: block;
+
+}
+
+article#contato
+{
+		background-color: white;
+		width: 60%;
+		border-radius: 5px; /*Raio da borda do artigo*/
+		padding: 1.5%; /*Espacamento interno do artigo*/
+		margin: 0 auto;
+		display: block;
+		position: relative;
+
 
 }

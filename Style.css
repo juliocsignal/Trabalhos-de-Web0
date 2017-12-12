@@ -24,8 +24,9 @@ div#logo
 	margin-top: 2%; /*Margem do topo da divisao*/
 	display: block; /*Configurando o display como bloco*/
 	position: relative; /*Configurando a posicao como relativa*/
-
-
+	display: table;
+	margin: 0 auto;
+	margin-top: 2%;
 }
 
 
@@ -50,14 +51,20 @@ img#foto{
 	margin-top: 10px; /*Configurando a margem do topo*/
 	position: relative; /*Configurando a posicao como relativa*/
 	display: block; /*Configurando o display como bloco*/
-	margin: 0 auto; /*Margens automaticas de orientacao esquerda-direita*/
+	/*margin: 0 auto; Margens automaticas de orientacao esquerda-direita*/
+	width: 100%;
+	margin: auto;
 
+	border-radius: 15px;
+	/*	margin-left: 7%;
+*/
 
 }
 
 
 ul#nav li
 {
+	margin-left: 0;
 	position: relative; /*Torna a posicao dos itens da lista 'nav', que
 											corresponde ao menu, relativos*/
 	display: inline-block; /*Define a visualizacao do menu como blocos horizontais*/
@@ -100,16 +107,18 @@ div#corpotexto
 	display: block
 	position: relative;
 
+
 }
 
 article#corpo
 {
-	background-color: #fff; /*Cor de fundo do artigo*/
-	width: 90%; /*Largura do artigo configurada como 60% do tamanho da pagina*/
-	display: block;
-	margin: 0 auto; /*Margens automaticas de orientacao esquerda-direita*/
-	border-radius: 18px; /*Raio da borda do artigo*/
+	background-color: white;
+	width: 60%;
+	border-radius: 5px; /*Raio da borda do artigo*/
 	padding: 1.5%; /*Espacamento interno do artigo*/
+	margin: 0 auto;
+	display: block;
+	position: relative;
 }
 
 article#corpo h1
@@ -127,7 +136,7 @@ div#titulo
 	background-color: rgba(44,141,153,0.6);
 	color: #fff;
 	text-shadow: 0.6px 0.6px 0.7px #000;
-	padding: 0.6%;
+	padding: 0.9%;
 	padding-left: 1.3%;
 	padding-right: 1.3%;
 	display: table;
@@ -139,6 +148,7 @@ div#titulo
 
 article#corpo p
 {
+	background-color: #fff;
 	text-align: justify;
 	text-indent: 1.7em;
 }
@@ -158,13 +168,71 @@ footer
 	margin-bottom: 5%;
 }
 
+img#img-teste
+{
+		border-radius: 8%;
+		border-width: medium;
+    border-style: solid;
+    border-color: #2c8d99;
+
+}
+
+div.news
+{
+		display: inline-block;
+		position: relative;
+		/*width: 10%;*/
+		margin: 0 auto;
+		max-width: 170px;
+		padding: 2%;
+		margin: 2%;
+		border-radius: 10%;
+		text-align: center;
+		background-color: white;
+		box-shadow: 0.6px 0.6px 0.7px #000;
+		box-shadow: -0.6px -0.6px -0.7px #000;
+
+
+
+
+
+}
+
+div#linha
+{
+		text-align: center;
+		display: block;
+		margin: 0 auto;
+}
+
+div#news1
+{
+}
+
+div#news2
+{
+}
+
+div#news3
+{
+}
+
 
 
 footer p
 {
 	margin: 0;
 	font-size: 1.0em;
-	/*margin-top: -15px;
-	margin-bottom: -15px;*/
+
 	text-align: center;
+}
+
+
+a#legenda
+{
+		display: block;
+		margin: 2%;
+		margin-top: 5%;
+		text-decoration: none;
+		color: #000;
 }
