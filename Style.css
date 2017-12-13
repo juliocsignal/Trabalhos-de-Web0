@@ -191,11 +191,6 @@ div.news
 		background-color: white;
 		box-shadow: 0.6px 0.6px 0.7px #000;
 		box-shadow: -0.6px -0.6px -0.7px #000;
-
-
-
-
-
 }
 
 div#linha
@@ -235,4 +230,16 @@ a#legenda
 		margin-top: 5%;
 		text-decoration: none;
 		color: #000;
+}
+
+a#legenda:hover
+{
+/*	font-size: 1.1em;
+*/
+}
+
+hr
+{
+	height: 1%;
+	color: #2c8d99;
 }
