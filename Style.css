@@ -36,6 +36,7 @@ div#menu
 	margin-top: 0.6%; /*Configurando margem do topo*/
 	position: relative; /*Configurando a posicao como relativa*/
 	display: block; /*Configurando o display como bloco*/
+
 }
 
 ul#nav
@@ -56,8 +57,7 @@ img#foto{
 	margin: auto;
 
 	border-radius: 15px;
-	/*	margin-left: 7%;
-*/
+	/*margin-left: 7%;*/
 
 }
 
@@ -68,14 +68,15 @@ ul#nav li
 	position: relative; /*Torna a posicao dos itens da lista 'nav', que
 											corresponde ao menu, relativos*/
 	display: inline-block; /*Define a visualizacao do menu como blocos horizontais*/
-	padding: 2%;
-	padding-left: 30px;
-	padding-right: 30px;
+	padding: 1.5em;
+	padding-left: ;
+	padding-right: ;
 	font-size: 15px;
 	text-align: center;
 	background: #fff;
 	border-left: 1px solid #ccc;
-	border-bottom: 1px solid #ccc;
+	/*	border-bottom: 1px solid #ccc;
+*/
 	}
 
 ul li a
@@ -110,10 +111,10 @@ div#corpotexto
 
 }
 
-article#corpo
+article
 {
 	background-color: white;
-	width: 60%;
+	width: 70em;
 	border-radius: 5px; /*Raio da borda do artigo*/
 	padding: 1.5%; /*Espacamento interno do artigo*/
 	margin: 0 auto;
@@ -158,11 +159,11 @@ footer
 	background-color: #fff;
 	height: 10%;
 	width: 30em;
+	position: relative;
 	display: block;
 	margin: 0 auto;
 	margin-bottom: 1%;
 	border-radius: 20px;
-	position: relative;
 	padding: 1.5%;
 	margin-top: 0.6%;
 	margin-bottom: 5%;
@@ -170,8 +171,8 @@ footer
 
 img#img-teste
 {
-		border-radius: 8%;
-		border-width: medium;
+	border-radius: 8%;
+	border-width: medium;
     border-style: solid;
     border-color: #2c8d99;
 
